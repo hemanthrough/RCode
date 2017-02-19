@@ -31,3 +31,5 @@ paste("if mu = 11.8 sigma =" , sigma)
 mu =12
 sigma = (13-mu)/(3*1.333)
 paste("if mu = 12 sigma =" , sigma)
+
+##bhk
