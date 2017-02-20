@@ -11,10 +11,10 @@ plotOC <- function(sampleSize= 8,resolution =71){
   
   #code to find expected n
   #alpha+bta
-  n <- (qt(.5,2*(sampleSize-1))+qt(.95,2*(sampleSize-1)))^2 * sSimple^2 *2/resolution^2
+  n <- (qt(.5,2*(sampleSize-1))+qt(.95,2*(sampleSize-1)))^2 * SSimple^2 *2/resolution^2
   paste("n required with  50", n)
   
-  n <- (qt(.1,2*(sampleSize-1))+qt(.05,2*(sampleSize-1)))^2 * sSimple^2 *2/resolution^2
+  n <- (qt(.1,2*(sampleSize-1))+qt(.05,2*(sampleSize-1)))^2 * SSimple^2 *2/resolution^2
   paste("n required with  10", n)
   
 }
